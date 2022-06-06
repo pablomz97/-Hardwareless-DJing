@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de origen\Arduino">
+      <UniqueIdentifier>{128e4bdf-fb08-4549-ae36-879e286fc286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Arduino\lib">
+      <UniqueIdentifier>{9c022eff-07b2-45dd-87b1-ea38c5b6a60e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\MIDI">
+      <UniqueIdentifier>{f8eb6173-3096-41ac-8686-03c2593dc817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Quadtree">
+      <UniqueIdentifier>{38cd7981-5692-4cdd-ab62-280e632367a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\OpenCV">
+      <UniqueIdentifier>{7a124f74-c0db-4886-9184-f0be5d4dddc2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OpenCVFunction.cpp">
+      <Filter>Archivos de origen\OpenCV</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduinoFunctions.cpp">
+      <Filter>Archivos de origen\Arduino</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialPort.cpp">
+      <Filter>Archivos de origen\Arduino\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="MidiFunctions.cpp">
+      <Filter>Archivos de origen\MIDI</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Dimension.cpp">
+      <Filter>Archivos de origen\Quadtree</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTree.cpp">
+      <Filter>Archivos de origen\Quadtree</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OpenCVFunction.h">
+      <Filter>Archivos de origen\OpenCV</Filter>
+    </ClInclude>
+    <ClInclude Include="ArduinoFunctions.h">
+      <Filter>Archivos de origen\Arduino</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialPort.h">
+      <Filter>Archivos de origen\Arduino\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="MidiFunctions.h">
+      <Filter>Archivos de origen\MIDI</Filter>
+    </ClInclude>
+    <ClInclude Include="Dimension.h">
+      <Filter>Archivos de origen\Quadtree</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTree.h">
+      <Filter>Archivos de origen\Quadtree</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Channels.txt">
+      <Filter>Archivos de recursos</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

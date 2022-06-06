@@ -1,0 +1,37 @@
+FADERS/KNOBS DECK A
+176,0,0-127 -> Volume
+176,1,0-127 -> Highs
+176,2,0-127 -> Mids
+176,3,0-127 -> Lows
+176,4,0-127 -> Tempo
+176,5,0-127 -> Gain
+
+NOTES DECK A
+144,0,127 -> Play/Pause ON
+144,1,127 -> CUE
+144,2,127 -> CUE1
+144,3,127 -> CUE2
+144,4,127 -> CUE3
+144,5,127 -> CUE4
+144,6,127 -> Headphone bus
+
+FADERS/KNOBS DECK B
+177,0,0-127 -> Volume
+177,1,0-127 -> Highs
+177,2,0-127 -> Mids
+177,3,0-127 -> Lows
+177,4,0-127 -> Tempo
+177,5,0-127 -> Gain
+
+NOTES DECK B
+145,0,127 -> Play/Pause ON
+145,1,127 -> CUE
+145,2,127 -> CUE1
+145,3,127 -> CUE2
+145,4,127 -> CUE3
+145,5,127 -> CUE4
+145,6,127 -> Headphone bus
+
+FADERS/KNOBS DECK GLOBAL
+178,0,0-127 -> Crossfader
+178,1,0-127 -> Gain

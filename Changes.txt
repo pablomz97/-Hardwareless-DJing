@@ -1,0 +1,21 @@
+Commit "Fixed Arduino serial problem"
+	Fixed arduino weird symbols in serial by adding the correct includes
+	Added Arduino function class and removed arduino related loops from main
+	Pointer used in arduino connection(see decisions)
+	
+Commit "Added changes file"
+	Added Changes File
+	
+Commit "MIDI files"
+	Added Midi files
+	Completely cleaned up main
+	
+Commit ""
+	Added Arduino and gesture thread(working)
+	
+Commit "Volume and play/pause control(ifs)"
+	Added volume control (if implementation)
+	Added play/pause control (if implementation)
+	Lowered area to be recognized to 500
+	Fixed failed assertion if mc was empty when finding position
+	Modified getY to corresponding actual values
